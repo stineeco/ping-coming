@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&family=Josefin+Sans:wght@300;400;600&family=Libre+Franklin:wght@300;600;700&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Libre Franklin', sans-serif;
+}
+
+.main_container{
+    justify-content: center;
+    place-content: center;
+     align-items: center;
+     min-height: 90vh;
+     display: flex;
+}
+
+
+
+.thanks{
+    font-weight: 700;
+    font-size: 50px;
+    display: none;
+    color:hsl(223, 87%, 63%) ;
+}
+
+
+.logo {
+    place-items: center;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+h1{
+    text-align: center;
+    margin-top: 20px;
+    color:hsl(0, 0%, 59%) ;
+    font-weight: 300;
+}
+span{
+    color: black;
+    font-weight: 600;
+}
+
+
+.sub_text{
+    margin-top: 20px;
+    color: hsl(209, 33%, 12%);
+    text-align: center;
+    font-weight: 300;
+}
+
+
+.sub_div{
+    position: relative;
+    gap: 10px;
+    align-items: center;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.sub_div input{
+    position: relative;
+    padding:0 20px;
+    width: 310px;
+    height: 35px;
+    border-radius: 20px;
+    border: 0.5px solid hsl(0, 0%, 59%);
+}
+
+::placeholder{
+    color:hsl(0, 0%, 59%) ;
+}
+
+Input:focus {
+    border: 0.5px solid  hsl(0, 0%, 59%);
+    outline: none;
+}
+
+
+.sub_div button{
+    position: relative;
+    border: 0;
+    width: 120px;
+    height: 35px;
+    color: white;
+    font-size: 10px;
+    border-radius: 20px;
+    background-color:hsl(223, 87%, 63%);
+}
+
+.sub_div .error_msg{
+    top: 40px;
+    left: 20px;
+    font-size: 10px;
+    display: none;
+    position: absolute;
+    color: hsl(354, 100%, 66%);
+}
+
+.btn_:hover{
+    background-color: hsl(223, 100%, 88%) ;
+}
+
+
+.dashboard_div{
+    margin-top: 50px;
+    text-align: center;
+}
+
+.dashboard_div img{
+    width: 440px;
+    text-align: center;
+}
+
+
+
+.socails{
+    gap: 15px;
+    display: flex;
+    margin-top: 30px;
+    justify-content: flex-end;
+    justify-content: center;
+}
+
+.social  {
+    color:hsl(223, 87%, 63%);
+    height: 30px;
+    width: 30px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    border: 0.5px solid hsl(0, 0%, 59%);
+}
+
+.social :hover{
+    color: white;
+    height: 30px;
+    width: 30px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background-color: hsl(223, 87%, 63%);
+}
+
+
+.copy_write{
+    color:hsl(0, 0%, 59%) ;
+    margin-top: 30px;
+    text-align: center;
+}
+
+
+@media  (min-width:200px)and (max-width:510px ) {
+
+
+.thanks{
+    font-size: 30px;
+}
+
+.sub_div{
+    gap: 10px;
+    align-items: center;
+    margin-top: 20px;
+    display: grid;
+    place-items: center;
+}
+
+
+.sub_div .error_msg{
+    margin-bottom: 12px;
+    position: initial;
+   
+}
+
+.sub_div button{
+    width: 300px;
+}
+
+
+.dashboard_div img{
+    width: 350px;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.copy_write{
+   font-size: 12px;
+}
+
+
+
+
+}   
